@@ -24,7 +24,23 @@ body {
 }
 
 .time {
-    font-size: 5rem;
+    font-size: 7rem;
+    font-variant-numeric: tabular-nums;
+}
+
+#time-1 {
+    /* make users unable to highlight text */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+#time-2 {
+    /* make users unable to highlight text */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 #prompt {
