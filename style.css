@@ -1,0 +1,39 @@
+body {
+    height: 70vh;
+    background: #1A254D;
+    padding: 100px;
+    font-family: Inter, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#timers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer {
+    margin: 0 15rem;
+}
+
+.team-title {
+    font-size: 1.5rem;
+}
+
+.stopwatch {
+    font-size: 5rem;
+}
+
+#clue {
+    font-size: 4rem;
+}
+
+#button {
+    padding: 1.5rem 5rem;
+    border-radius: 3rem;
+    background: #CE4257;
+    font-size: 2rem;
+}
