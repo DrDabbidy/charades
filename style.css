@@ -23,11 +23,11 @@ body {
     font-size: 1.5rem;
 }
 
-.stopwatch {
+.time {
     font-size: 5rem;
 }
 
-#clue {
+#prompt {
     font-size: 4rem;
 }
 
@@ -36,4 +36,9 @@ body {
     border-radius: 3rem;
     background: #CE4257;
     font-size: 2rem;
+    /* make users unable to highlight text */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
